@@ -9,6 +9,11 @@ document.onkeydown = function(e) {
 		 if (e.shiftKey && e.keyCode == "121") {
         window.open("anl.php", "_blank");
     }
+	
+			 if (e.shiftKey && e.keyCode == "120") {
+        window.open("update.php", "_blank");
+    }
+	
 	    if (e.shiftKey && e.keyCode == "112") {
 			
 var x = document.getElementById('loging');
